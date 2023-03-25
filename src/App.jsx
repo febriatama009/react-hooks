@@ -1,12 +1,14 @@
 import "./App.css";
 // import MainUseState from "./components/UseState/MainUseState";
-import MainUseEffect from "./components/UseEffect/MainUseEffect";
+// import MainUseEffect from "./components/UseEffect/MainUseEffect";
+import MainUseContext from "./components/UseContext/MainUseContext";
 
 function App() {
   return (
     <div className="App">
       {/* <MainUseState /> */}
-      <MainUseEffect />
+      {/* <MainUseEffect /> */}
+      <MainUseContext />
     </div>
   );
 }
