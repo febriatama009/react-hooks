@@ -3,7 +3,8 @@ import "./App.css";
 // import MainUseEffect from "./components/UseEffect/MainUseEffect";
 // import MainUseContext from "./components/UseContext/MainUseContext";
 // import MainUseReducer from "./components/UseReducer/MainUseReducer";
-import MainUseCallback from "./components/UseCallback/MainUseCallback";
+// import MainUseCallback from "./components/UseCallback/MainUseCallback";
+import MainUseMemo from "./components/UseMemo/MainUseMemo";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <MainUseEffect /> */}
       {/* <MainUseContext /> */}
       {/* <MainUseReducer /> */}
-      <MainUseCallback />
+      {/* <MainUseCallback /> */}
+      <MainUseMemo />
     </div>
   );
 }
