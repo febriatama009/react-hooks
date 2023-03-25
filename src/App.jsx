@@ -4,7 +4,8 @@ import "./App.css";
 // import MainUseContext from "./components/UseContext/MainUseContext";
 // import MainUseReducer from "./components/UseReducer/MainUseReducer";
 // import MainUseCallback from "./components/UseCallback/MainUseCallback";
-import MainUseMemo from "./components/UseMemo/MainUseMemo";
+// import MainUseMemo from "./components/UseMemo/MainUseMemo";
+// import MainUseRef from "./components/UseRef/MainUseRef";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <MainUseContext /> */}
       {/* <MainUseReducer /> */}
       {/* <MainUseCallback /> */}
-      <MainUseMemo />
+      {/* <MainUseMemo /> */}
+      {/* <MainUseRef /> */}
     </div>
   );
 }
